@@ -38,7 +38,7 @@
   
   ## **시스템 흐름도**
  
-  
+  ![인프라 설계](https://user-images.githubusercontent.com/96184680/151701260-f0ca7e69-7cd4-4508-b7b6-c9f7d46dd21b.png)
   
   ## **ERD 구조**
 
