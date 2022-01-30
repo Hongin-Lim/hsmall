@@ -1,6 +1,6 @@
 <br>
 
-# Django로 심플한 쇼핑몰 프로젝트 HS MALL
+# Django 만드는 심플한 쇼핑몰 프로젝트 HS MALL
 
 <br>
 
