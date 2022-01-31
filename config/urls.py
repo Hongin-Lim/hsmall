@@ -17,13 +17,14 @@ from django.contrib import admin
 from django.urls import path
 
 import board.views
-
+import users.views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', board.views.base),
     path('hsmall/', board.views.hsmall),
-    path('board/register', board.views.register),
+    path('board/register/', board.views.register),
+
 
 
 
