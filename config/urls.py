@@ -18,7 +18,14 @@ from django.urls import path
 
 import board.views
 
+
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', board.views.home),
+    path('', board.views.base),
+    path('hsmall/', board.views.hsmall),
+    path('board/register', board.views.register),
+
+
+
+
 ]

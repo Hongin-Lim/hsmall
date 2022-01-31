@@ -1,0 +1,15 @@
+{% extends 'layout/base.html' %}
+{% block content %}
+
+
+<body>
+<form action="/board/register" method="post">
+    {% csrf_token %}
+    {{ boardForm }}
+
+    <input type="submit">
+</form>
+</body>
+
+
+{% endblock %}
