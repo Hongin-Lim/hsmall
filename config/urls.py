@@ -23,6 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('', board.views.base),
     path('hsmall/', board.views.hsmall),
+    path('login/', users.views.login),
     path('board/register/', board.views.register),
 
 
