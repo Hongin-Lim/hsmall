@@ -34,3 +34,6 @@ def posts(request):
 
     return render(request, 'board/list.html',
                             {'posts':posts})
+
+def login(request):
+    return render(request, 'users/login.html')
