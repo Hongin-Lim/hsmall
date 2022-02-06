@@ -24,7 +24,8 @@ urlpatterns = [
     path('', board.views.base),
     path('hsmall/', board.views.hsmall),
     path('signup/', users.views.signup),
-    path('login/', users.views.login),
+    path('login/', users.views.userLogin),
+    path('logout/', users.views.userLogout),
     path('board/register/', board.views.register),
 
 

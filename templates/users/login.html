@@ -1,6 +1,11 @@
 {% extends 'layout/base.html' %}
 {% block content %}
 
+{% if user.is_authenticated %}
+    <p>Welcome {{ user.username }} !!!</p>
+    <a href="{% url 'user:logout' %">로그아웃</a>
+{% else %}
+
 
 <h1>로그인</h1>
 
@@ -9,8 +14,9 @@
     {{ loginForm }}
     <input type="submit" value="로그인">
 </form>
+<a href="{% url 'user:signup' %">회원가입</a>
 
-
+{% endif %}
 {% endblock %}
 
 
